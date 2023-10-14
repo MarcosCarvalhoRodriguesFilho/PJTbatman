@@ -109,15 +109,17 @@ span{
     color: white;
     font-family:"Kdam Thmor Pro", sans-serif;
     margin-bottom: 30px;
-
+}
+.footer-navigation{
+    display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media(max-width: 768px) {
     .footer-navigation{
         display: block;
     }
     nav{
-        display: none;
+        display: none;  
     }
     #coments-back{
         margin-top: 50px;

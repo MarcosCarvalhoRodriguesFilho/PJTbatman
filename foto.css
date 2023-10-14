@@ -135,8 +135,30 @@ span{
     }
 
     .fotos{
+        width: 50%;
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
         grid-template-columns: 1fr;
-        margin-top: 150px;
+        align-items: center;
+        
+       
+    }
+    .card{
+        width: 95%;
+        height: 600px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
         
     }

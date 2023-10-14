@@ -228,5 +228,14 @@ span{
         grid-template-columns: 1fr;
         margin-top: 150px;
     }
+    footer{
+
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }

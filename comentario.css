@@ -111,3 +111,52 @@ span{
     margin-bottom: 30px;
 
 }
+
+@media screen and (max-width: 768px) {
+    .footer-navigation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    #coments-back{
+        margin-top: 50px;
+        margin-bottom: 190px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+
+    }
+    .comentarios {
+        width: 100%;
+        margin: 10px 0; 
+        grid-template-columns: 1fr;
+    }
+
+    .user {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nome {
+        font-size: 16px;
+    }
+
+    .text {
+        align-items: center;
+        font-size: 14px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

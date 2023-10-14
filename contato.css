@@ -105,11 +105,23 @@ span{
     nav{
         display: none;
     }
-    .forms{
-        width: 100%;
+    form{
+        width: 70%;
         height: 400px;
+        size: 80px;
         display: flex;
         flex-direction: column;
-        margin-left: 45%;
     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -29,16 +29,19 @@
     <div class="forms">
         <form action="https://formsubmit.co/marcosfilho.contato1@gmail.com" method="POST">
             <label for="Nome">Nome: </label>
-            <input style="display: block" id="nome" type="nome"size="97px" placeholder="Insira seu nome">
+            <input style="display: block" id="nome" type="text" name="name" size="97px" placeholder="Insira seu nome" required>
             <br>
             <label for="email">E-mail: </label>
-            <input style="display: block;" id="email" type="email" size="97px" placeholder="Insira seu E-mail">
+            <input style="display: block;" id="email" type="email" name="Email" size="97px" placeholder="Insira seu E-mail" required>
             <br>
             <label>Digite sua mensagem: </label>
-            <textarea style="display: block;" name="mensagem" id="mensagem" rows="10" cols="100">
-            </textarea>
-            <br>
+            <textarea style="display: block;" name="mensagem" id="mensagem" rows="10" cols="100" placeholder="Digite sua mensagem... (Haverá um CAPTCHA)"></textarea>
+            <br>    
             <button type="submit">Enviar</button>
+
+            <input type="hidden" name="_subject" value="Novo contato">
+            <input type="text" name="_honey" style="display: none;">
+
         </form>
     </div>
     <footer>

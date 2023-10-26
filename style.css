@@ -84,7 +84,7 @@ li:hover {
     color: #fff;
     font-size: 19px;
     font-family: "Kdam Thmor Pro", sans-serif;
-    width: 70%;
+    width: 100%;
 }
 
 .button{
@@ -183,7 +183,7 @@ span{
     align-items: center;
 }
 
-@media(max-width:768px){
+@media(max-width: 854px ){
     .footer-navigation{
         display: block;
     }
